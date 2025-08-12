@@ -1,22 +1,128 @@
 [
   {
-    "platform": "epic",
-    "title": "Sample Game",
-    "subtitle": "Placeholder; will be overwritten by the Action.",
-    "source_url": "https://example.com",
-    "store_product_url": "https://example.com",
+    "platform": "psplus",
+    "title": "PlayStation 15th Anniversary Avatars",
+    "subtitle": "PlayStation Plus monthly line-up",
+    "source_url": "https://blog.playstation.com/2025/07/29/playstation-plus-monthly-games-for-august-lies-of-p-day-z-my-hero-ones-justice-2/",
+    "store_product_url": "",
     "image_url": "",
-    "price_before": "$19.99",
-    "price_now": "$0",
-    "currency": "USD",
-    "region_scope": "Global",
-    "starts_at": "2025-08-12T00:00:00Z",
-    "ends_at": "2025-08-19T00:00:00Z",
+    "price_before": "",
+    "price_now": "Included",
+    "currency": "",
+    "region_scope": "Varies by region",
+    "starts_at": "2025-08-12T09:58:51.978Z",
+    "ends_at": null,
     "is_time_limited": true,
     "tags": [
-      "Action"
+      "PlayStation",
+      "PS Plus"
     ],
-    "rating": 4.6,
-    "verified_at": "2025-08-12T00:00:00Z"
+    "rating": null,
+    "verified_at": "2025-08-12T09:58:51.978Z"
+  },
+  {
+    "platform": "psplus",
+    "title": "Lies of P | PS5, PS4",
+    "subtitle": "PlayStation Plus monthly line-up",
+    "source_url": "https://blog.playstation.com/2025/07/29/playstation-plus-monthly-games-for-august-lies-of-p-day-z-my-hero-ones-justice-2/",
+    "store_product_url": "",
+    "image_url": "",
+    "price_before": "",
+    "price_now": "Included",
+    "currency": "",
+    "region_scope": "Varies by region",
+    "starts_at": "2025-08-12T09:58:51.978Z",
+    "ends_at": null,
+    "is_time_limited": true,
+    "tags": [
+      "PlayStation",
+      "PS Plus"
+    ],
+    "rating": null,
+    "verified_at": "2025-08-12T09:58:51.978Z"
+  },
+  {
+    "platform": "psplus",
+    "title": "Day Z",
+    "subtitle": "PlayStation Plus monthly line-up",
+    "source_url": "https://blog.playstation.com/2025/07/29/playstation-plus-monthly-games-for-august-lies-of-p-day-z-my-hero-ones-justice-2/",
+    "store_product_url": "",
+    "image_url": "",
+    "price_before": "",
+    "price_now": "Included",
+    "currency": "",
+    "region_scope": "Varies by region",
+    "starts_at": "2025-08-12T09:58:51.978Z",
+    "ends_at": null,
+    "is_time_limited": true,
+    "tags": [
+      "PlayStation",
+      "PS Plus"
+    ],
+    "rating": null,
+    "verified_at": "2025-08-12T09:58:51.978Z"
+  },
+  {
+    "platform": "psplus",
+    "title": "| PS4",
+    "subtitle": "PlayStation Plus monthly line-up",
+    "source_url": "https://blog.playstation.com/2025/07/29/playstation-plus-monthly-games-for-august-lies-of-p-day-z-my-hero-ones-justice-2/",
+    "store_product_url": "",
+    "image_url": "",
+    "price_before": "",
+    "price_now": "Included",
+    "currency": "",
+    "region_scope": "Varies by region",
+    "starts_at": "2025-08-12T09:58:51.978Z",
+    "ends_at": null,
+    "is_time_limited": true,
+    "tags": [
+      "PlayStation",
+      "PS Plus"
+    ],
+    "rating": null,
+    "verified_at": "2025-08-12T09:58:51.978Z"
+  },
+  {
+    "platform": "psplus",
+    "title": "My Hero One’s Justice 2 | PS4",
+    "subtitle": "PlayStation Plus monthly line-up",
+    "source_url": "https://blog.playstation.com/2025/07/29/playstation-plus-monthly-games-for-august-lies-of-p-day-z-my-hero-ones-justice-2/",
+    "store_product_url": "",
+    "image_url": "",
+    "price_before": "",
+    "price_now": "Included",
+    "currency": "",
+    "region_scope": "Varies by region",
+    "starts_at": "2025-08-12T09:58:51.978Z",
+    "ends_at": null,
+    "is_time_limited": true,
+    "tags": [
+      "PlayStation",
+      "PS Plus"
+    ],
+    "rating": null,
+    "verified_at": "2025-08-12T09:58:51.978Z"
+  },
+  {
+    "platform": "psplus",
+    "title": "Last chance to add PlayStation Plus Games for July to your library",
+    "subtitle": "PlayStation Plus monthly line-up",
+    "source_url": "https://blog.playstation.com/2025/07/29/playstation-plus-monthly-games-for-august-lies-of-p-day-z-my-hero-ones-justice-2/",
+    "store_product_url": "",
+    "image_url": "",
+    "price_before": "",
+    "price_now": "Included",
+    "currency": "",
+    "region_scope": "Varies by region",
+    "starts_at": "2025-08-12T09:58:51.978Z",
+    "ends_at": null,
+    "is_time_limited": true,
+    "tags": [
+      "PlayStation",
+      "PS Plus"
+    ],
+    "rating": null,
+    "verified_at": "2025-08-12T09:58:51.978Z"
   }
 ]

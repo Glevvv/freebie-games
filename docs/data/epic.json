@@ -1,22 +1,48 @@
 [
   {
     "platform": "epic",
-    "title": "Sample Game",
-    "subtitle": "Placeholder; will be overwritten by the Action.",
-    "source_url": "https://example.com",
-    "store_product_url": "https://example.com",
-    "image_url": "",
-    "price_before": "$19.99",
-    "price_now": "$0",
+    "title": "112 Operator",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/p/112-operator",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/6036e5ea111a448ea1b41d5ab3800d99/112-operator-1smmi.jpg",
+    "price_before": "$24.99",
+    "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-08-12T00:00:00Z",
-    "ends_at": "2025-08-19T00:00:00Z",
+    "starts_at": "2025-08-07T15:00:00.000Z",
+    "ends_at": "2025-08-14T15:00:00.000Z",
     "is_time_limited": true,
     "tags": [
-      "Action"
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
     ],
-    "rating": 4.6,
-    "verified_at": "2025-08-12T00:00:00Z"
+    "rating": null,
+    "verified_at": "2025-08-12T09:58:50.259Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Road Redemption",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/p/road-redemption",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/ee0cf0e1ab6a4e1c83e5de0681fea012/road-redemption-1upeb.png",
+    "price_before": "$19.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-08-07T15:00:00.000Z",
+    "ends_at": "2025-08-14T15:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-08-12T09:58:50.259Z"
   }
 ]
