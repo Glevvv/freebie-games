@@ -37,37 +37,55 @@ function norm(item, extra = {}) {
   return { ...base, ...item, ...extra };
 }
 
-// EPIC — official JSON
 async function fetchEpic() {
-  const url = "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US&allowCountries=US";
-  const data = await httpGet(url, "json");
+  const api = "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US&allowCountries=US";
+  const data = await httpGet(api, "json");
   const now = new Date();
   const out = [];
+
+  const toStoreUrl = (e) => {
+    const maps = e.catalogNs?.mappings || [];
+    // prefer a product page, fallback to first mapping, support bundles
+    const m =
+      maps.find(x => x.pageType === "productHome") ||
+      maps.find(x => /bundle/i.test(x.pageType || "")) ||
+      maps[0];
+
+    if (m?.pageSlug) {
+      const seg = /bundle/i.test(m.pageType || "") ? "bundles" : "p";
+      return `https://store.epicgames.com/en-US/${seg}/${m.pageSlug}`;
+    }
+    if (e.url) return `https://store.epicgames.com${e.url}`;
+    const slug = e.productSlug || e.urlSlug;
+    return slug ? `https://store.epicgames.com/en-US/p/${slug}` 
+                : "https://store.epicgames.com/en-US/free-games";
+  };
+
   for (const e of data.data.Catalog.searchStore.elements) {
-    const title = e.title;
-    const img = (e.keyImages || [])[0]?.url || "";
     const offers = e.promotions?.promotionalOffers?.[0]?.promotionalOffers || [];
-    const activeOffer = offers.find(o => new Date(o.startDate) <= now && now < new Date(o.endDate));
-    if (!activeOffer) continue;
+    const active = offers.find(o => new Date(o.startDate) <= now && now < new Date(o.endDate));
+    if (!active) continue;
+
     out.push(norm({
       platform: "epic",
-      title,
+      title: e.title,
       subtitle: e.publisher || "Epic Games Store",
       source_url: "https://store.epicgames.com/en-US/free-games",
-      store_product_url: `https://store.epicgames.com/p/${(e.productSlug || e.urlSlug || title).toString().toLowerCase().replace(/\s+/g,'-')}`,
-      image_url: img,
+      store_product_url: toStoreUrl(e),
+      image_url: (e.keyImages || [])[0]?.url || "",
       price_before: e.price?.totalPrice?.fmtPrice?.originalPrice || "",
       price_now: "0",
       currency: e.price?.totalPrice?.currencyCode || "USD",
       region_scope: "Global",
-      starts_at: activeOffer.startDate,
-      ends_at: activeOffer.endDate,
+      starts_at: active.startDate,
+      ends_at: active.endDate,
       is_time_limited: true,
-      tags: e.categories?.map(c=>c.path || c.name).filter(Boolean) || []
+      tags: (e.categories || []).map(c => c.path || c.name).filter(Boolean)
     }));
   }
   return out;
 }
+
 
 // PS PLUS — PlayStation Blog
 async function fetchPSPlus() {
