@@ -1,0 +1,16 @@
+{
+  "name": "freebie-tabs-site",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "scrape": "node scripts/scrape.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dayjs": "^1.11.10",
+    "fast-xml-parser": "^4.3.6",
+    "node-fetch": "^3.3.2",
+    "p-limit": "^5.0.0"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "platform": "prime",
+    "title": "Sample Game",
+    "subtitle": "This is a placeholder item. The Action will overwrite this soon.",
+    "source_url": "https://example.com",
+    "store_product_url": "https://example.com",
+    "image_url": "",
+    "price_before": "$19.99",
+    "price_now": "$0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-08-12T00:00:00Z",
+    "ends_at": "2025-08-19T00:00:00Z",
+    "is_time_limited": true,
+    "tags": [
+      "Action"
+    ],
+    "rating": 4.6,
+    "verified_at": "2025-08-12T00:00:00Z"
+  }
+]
