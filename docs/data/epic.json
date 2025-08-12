@@ -4,7 +4,7 @@
     "title": "112 Operator",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/p/112-operator",
+    "store_product_url": "https://store.epicgames.com/en-US/p/112-operator-f34b0b",
     "image_url": "https://cdn1.epicgames.com/spt-assets/6036e5ea111a448ea1b41d5ab3800d99/112-operator-1smmi.jpg",
     "price_before": "$24.99",
     "price_now": "0",
@@ -20,14 +20,14 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-08-12T10:37:23.980Z"
+    "verified_at": "2025-08-12T10:53:56.388Z"
   },
   {
     "platform": "epic",
     "title": "Road Redemption",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/p/road-redemption",
+    "store_product_url": "https://store.epicgames.com/en-US/p/road-redemption-ce16fb",
     "image_url": "https://cdn1.epicgames.com/spt-assets/ee0cf0e1ab6a4e1c83e5de0681fea012/road-redemption-1upeb.png",
     "price_before": "$19.99",
     "price_now": "0",
@@ -43,6 +43,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-08-12T10:37:23.980Z"
+    "verified_at": "2025-08-12T10:53:56.388Z"
   }
 ]
