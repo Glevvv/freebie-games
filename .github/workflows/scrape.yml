@@ -7,22 +7,29 @@ on:
     branches: [ main ]
 permissions:
   contents: write
+concurrency:
+  group: scrape-json
+  cancel-in-progress: true
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0          # needed for pull --rebase
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-      - name: Install deps
-        run: npm i
-      - name: Run scraper
-        run: node scripts/scrape.mjs
-      - name: Commit JSON
+          node-version: 20
+      - run: npm i
+      - run: node scripts/scrape.mjs
+      - name: Pull latest & commit JSON
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git pull --rebase origin main
           git add docs/data/*.json
           git commit -m "data: update $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes"
-          git push
+          git push origin HEAD:main
