@@ -1,5 +1,5 @@
 const tabs = ["ios","android","epic","prime","psplus","gog"];
-const state = { tab: "ios", items: [], query: "", onlyActive: true };
+const state = { tab: "epic", items: [], query: "", onlyActive: true };
 
 const $ = (s) => document.querySelector(s);
 const list = $("#list");
@@ -47,16 +47,11 @@ async function loadTab() {
     const res = await fetch(`./data/${state.tab}.json?ts=${Date.now()}`);
     const items = await res.json();
     state.items = Array.isArray(items) ? items : [];
-    // show last updated from newest verified_at
     const latest = state.items
       .map(x => Date.parse(x.verified_at||0))
       .filter(n => !isNaN(n))
       .sort((a,b)=>b-a)[0];
-    if (latest) {
-      lastUpdated.textContent = "Verified " + new Date(latest).toLocaleString();
-    } else {
-      lastUpdated.textContent = "";
-    }
+    lastUpdated.textContent = latest ? ("Verified " + new Date(latest).toLocaleString()) : "";
   } catch (e) {
     console.error(e);
     state.items = [];
@@ -69,7 +64,6 @@ function render() {
   if (state.onlyActive) items = items.filter(isActive);
   if (state.query) items = items.filter(x => matchesQuery(x, state.query));
 
-  // sort: time-limited first; then closest to end
   const rank = x => (x.is_time_limited ? 0 : 1);
   items.sort((a,b) => {
     const r = rank(a) - rank(b);
@@ -80,7 +74,7 @@ function render() {
   });
 
   if (!items.length) {
-    list.innerHTML = "<p class='empty'>No items match. Try another tab or search.</p>";
+    list.innerHTML = "<p class='empty'>No items. Try another tab or refresh after the next update.</p>";
     return;
   }
 
@@ -88,16 +82,16 @@ function render() {
 }
 
 function card(x) {
-  const img = x.image_url ? `<img src="${x.image_url}" alt="">` : `<img src="" alt="" />`;
-  const price = x.price_now ? `<span class="badge">Now: ${x.price_now} ${x.currency||""}</span>` : "";
-  const was = x.price_before ? `<span class="badge">Was: ${x.price_before}</span>` : "";
-  const reg = x.region_scope ? `<span class="badge">Region: ${x.region_scope}</span>` : "";
-  const tl = x.is_time_limited ? `<span class="badge">Limited</span>` : `<span class="badge">Always Free</span>`;
-  const until = x.ends_at ? `<span class="badge">Ends: ${fmtDate(x.ends_at)}</span>` : "";
-  const tags = (x.tags||[]).map(t=>`<span class="badge">#${t}</span>`).join("");
-  const rating = (x.rating!=null) ? `<span class="badge">★ ${x.rating}</span>` : "";
-  const source = x.source_url ? `<a href="${x.source_url}" target="_blank" rel="noopener">source</a>` : "";
-  const claim = x.store_product_url ? `<a href="${x.store_product_url}" target="_blank" rel="nofollow noopener"><button class="claimbtn">Claim</button></a>` : "";
+  const img = x.image_url ? `<img src="${x.image_url}" alt=""/>` : `<img src="" alt=""/>`;
+  const price = x.price_now ? `<span class='badge'>Now: ${x.price_now} ${x.currency||""}</span>` : "";
+  const was = x.price_before ? `<span class='badge'>Was: ${x.price_before}</span>` : "";
+  const reg = x.region_scope ? `<span class='badge'>Region: ${x.region_scope}</span>` : "";
+  const tl = x.is_time_limited ? `<span class='badge'>Limited</span>` : `<span class='badge'>Always Free</span>`;
+  const until = x.ends_at ? `<span class='badge'>Ends: ${fmtDate(x.ends_at)}</span>` : "";
+  const tags = (x.tags||[]).map(t=>`<span class='badge'>#${t}</span>`).join("");
+  const rating = (x.rating!=null) ? `<span class='badge'>★ ${x.rating}</span>` : "";
+  const source = x.source_url ? `<a href='${x.source_url}' target='_blank' rel='noopener'>source</a>` : "";
+  const claim = x.store_product_url ? `<a href='${x.store_product_url}' target='_blank' rel='nofollow noopener'><button class='claimbtn'>Claim</button></a>` : "";
 
   return `
   <article class="card">
@@ -115,6 +109,5 @@ function card(x) {
   </article>`;
 }
 
-// boot
-document.querySelector('.tab[data-tab="ios"]').classList.add("active");
+document.querySelector('.tab[data-tab="epic"]').classList.add("active");
 loadTab();

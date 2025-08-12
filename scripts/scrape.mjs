@@ -1,15 +1,12 @@
 // Scrapers for: iOS, Android, Epic, Prime Gaming, PS Plus, GOG
-// NOTE: These scrapers are *best-effort* and may require tweaks if DOM changes.
-// Always respect robots.txt and each site's Terms.
+// Respect robots.txt and Terms.
 
 import fetch from "node-fetch";
-import cheerio from "cheerio";
-import dayjs from "dayjs";
-import { XMLParser } from "fast-xml-parser";
+import { load } from "cheerio";
+import fs from "node:fs/promises";
 
 const UA = "Mozilla/5.0 (compatible; FreebieHubBot/1.0; +https://github.com/)";
 
-// ---------------- helpers ----------------
 async function httpGet(url, type = "text") {
   const res = await fetch(url, { headers: { "user-agent": UA, "accept": "*/*" } });
   if (!res.ok) throw new Error(`GET ${url} -> ${res.status}`);
@@ -40,7 +37,7 @@ function norm(item, extra = {}) {
   return { ...base, ...item, ...extra };
 }
 
-// --------------- EPIC: official JSON ---------------
+// EPIC — official JSON
 async function fetchEpic() {
   const url = "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=US&allowCountries=US";
   const data = await httpGet(url, "json");
@@ -50,11 +47,8 @@ async function fetchEpic() {
     const title = e.title;
     const img = (e.keyImages || [])[0]?.url || "";
     const offers = e.promotions?.promotionalOffers?.[0]?.promotionalOffers || [];
-    const upcoming = e.promotions?.upcomingPromotionalOffers?.[0]?.promotionalOffers || [];
     const activeOffer = offers.find(o => new Date(o.startDate) <= now && now < new Date(o.endDate));
-    const promo = activeOffer || null;
-    if (!promo) continue;
-
+    if (!activeOffer) continue;
     out.push(norm({
       platform: "epic",
       title,
@@ -66,8 +60,8 @@ async function fetchEpic() {
       price_now: "0",
       currency: e.price?.totalPrice?.currencyCode || "USD",
       region_scope: "Global",
-      starts_at: promo.startDate,
-      ends_at: promo.endDate,
+      starts_at: activeOffer.startDate,
+      ends_at: activeOffer.endDate,
       is_time_limited: true,
       tags: e.categories?.map(c=>c.path || c.name).filter(Boolean) || []
     }));
@@ -75,23 +69,21 @@ async function fetchEpic() {
   return out;
 }
 
-// --------------- PS PLUS: PlayStation Blog tag ---------------
+// PS PLUS — PlayStation Blog
 async function fetchPSPlus() {
   const listURL = "https://blog.playstation.com/tag/playstation-plus/";
   const html = await httpGet(listURL);
-  const $ = cheerio.load(html);
+  const $ = load(html);
   const first = $("article a[href]").first().attr("href");
   if (!first) return [];
   const postHtml = await httpGet(first);
-  const $$ = cheerio.load(postHtml);
+  const $$ = load(postHtml);
 
-  // grab bullet points and strongs as rough "game titles"
   const items = [];
   $$(".entry-content li, .entry-content strong").each((_, el) => {
     const t = $$(el).text().trim();
     if (t && /\w/.test(t) && t.length <= 120) items.push(t);
   });
-
   const uniqueTitles = [...new Set(items)].slice(0, 15);
   const dateMatch = $$(".entry-header time").attr("datetime") || new Date().toISOString();
 
@@ -113,12 +105,11 @@ async function fetchPSPlus() {
   }));
 }
 
-// --------------- GOG: free catalog ---------------
+// GOG — always-free listing
 async function fetchGOG() {
-  // Popular always-free titles; time-limited giveaways may appear on homepage.
   const url = "https://www.gog.com/en/games?priceRange=0,0&sort=popularity";
   const html = await httpGet(url);
-  const $ = cheerio.load(html);
+  const $ = load(html);
   const out = [];
   $('a[href^="/en/game/"]').each((_, a) => {
     const href = $(a).attr("href");
@@ -144,17 +135,15 @@ async function fetchGOG() {
   return out.slice(0, 40);
 }
 
-// --------------- Prime Gaming: monthly roundup (third-party summary) ---------------
+// Prime Gaming — monthly roundup
 async function fetchPrime() {
-  // Uses a reputable news roundup. Adjust selector if DOM changes.
   const url = "https://www.pcgamer.com/prime-gaming-free-games/";
   const html = await httpGet(url);
-  const $ = cheerio.load(html);
+  const $ = load(html);
   const out = [];
-  // Look for headings that contain game titles within the article
   $("h2, h3").each((_, el) => {
     const t = $(el).text().trim();
-    if (/free games? with prime/i.test(t)) return; // skip headers
+    if (/free games? with prime/i.test(t)) return;
     if (t && t.length < 120 && /[a-zA-Z]/.test(t)) {
       out.push(norm({
         platform: "prime",
@@ -174,7 +163,6 @@ async function fetchPrime() {
       }));
     }
   });
-  // Deduplicate
   const uniq = [];
   const seen = new Set();
   for (const it of out) {
@@ -184,11 +172,11 @@ async function fetchPrime() {
   return uniq.slice(0, 20);
 }
 
-// --------------- iOS: Appsliced "Free" recent ---------------
+// iOS — Appsliced "Free" recent
 async function fetchIOSFree() {
   const url = "https://appsliced.co/apps?sort=recent&l=free";
   const html = await httpGet(url);
-  const $ = cheerio.load(html);
+  const $ = load(html);
   const items = [];
   $(".app-list .app").each((_, el) => {
     const title = $(el).find(".name").text().trim();
@@ -216,11 +204,11 @@ async function fetchIOSFree() {
   return items.slice(0, 50);
 }
 
-// --------------- Android: AppAgg hot deals (best-effort) ---------------
+// Android — AppAgg hot deals (best-effort)
 async function fetchAndroidFree() {
   const url = "https://appagg.com/hot?platform=android";
   const html = await httpGet(url);
-  const $ = cheerio.load(html);
+  const $ = load(html);
   const out = [];
   $(".app-card, .item, article").each((_, el) => {
     const t = $(el).find(".title, h3, .name").first().text().trim();
@@ -248,9 +236,6 @@ async function fetchAndroidFree() {
   return out.slice(0, 60);
 }
 
-// ---------------- run all & write files ----------------
-import fs from "node:fs/promises";
-
 const writers = [
   ["ios", fetchIOSFree],
   ["android", fetchAndroidFree],
@@ -260,17 +245,15 @@ const writers = [
   ["gog", fetchGOG],
 ];
 
-const all = {};
 for (const [name, fn] of writers) {
   try {
     const items = await fn();
-    all[name] = items.map(x => ({ ...x, verified_at: new Date().toISOString() }));
+    const withStamp = items.map(x => ({ ...x, verified_at: new Date().toISOString() }));
+    await fs.writeFile(`docs/data/${name}.json`, JSON.stringify(withStamp, null, 2));
+    console.log("Wrote", name, withStamp.length);
   } catch (e) {
     console.error("Failed", name, e.message);
-    all[name] = []; // keep empty to avoid crashing
+    await fs.writeFile(`docs/data/${name}.json`, "[]");
   }
-  await fs.writeFile(`docs/data/${name}.json`, JSON.stringify(all[name], null, 2));
-  console.log("Wrote", name, all[name].length);
 }
-
 console.log("Done.");

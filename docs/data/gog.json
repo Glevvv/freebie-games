@@ -1,8 +1,8 @@
 [
   {
-    "platform": "gog",
+    "platform": "epic",
     "title": "Sample Game",
-    "subtitle": "This is a placeholder item. The Action will overwrite this soon.",
+    "subtitle": "Placeholder; will be overwritten by the Action.",
     "source_url": "https://example.com",
     "store_product_url": "https://example.com",
     "image_url": "",
