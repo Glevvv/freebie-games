@@ -107,33 +107,24 @@ async function fetchPSPlus() {
 
 // GOG — always-free listing
 async function fetchGOG() {
-  const url = "https://www.gog.com/en/games?priceRange=0,0&sort=popularity";
-  const html = await httpGet(url);
-  const $ = load(html);
-  const out = [];
-  $('a[href^="/en/game/"]').each((_, a) => {
-    const href = $(a).attr("href");
-    const title = $(a).find("[class*=product-title], [data-product-tile-title]").text().trim() || $(a).attr("title") || "Free game";
-    if (!title) return;
-    out.push(norm({
-      platform: "gog",
-      title,
-      subtitle: "Always free on GOG",
-      source_url: url,
-      store_product_url: "https://www.gog.com" + href,
-      image_url: "",
-      price_before: "",
-      price_now: "0",
-      currency: "USD",
-      region_scope: "Global",
-      starts_at: null,
-      ends_at: null,
-      is_time_limited: false,
-      tags: ["GOG", "PC"]
-    }));
-  });
-  return out.slice(0, 40);
+  const url = "https://embed.gog.com/games/ajax/filtered?mediaType=game&price=free&sort=popularity";
+  const data = await httpGet(url, "json");
+  const out = (data.products || []).map(p => norm({
+    platform: "gog",
+    title: p.title,
+    subtitle: "Always free on GOG",
+    source_url: "https://www.gog.com/en/games?price=free&sort=popularity",
+    store_product_url: "https://www.gog.com/en/game/" + p.slug,
+    image_url: p.image || "",
+    price_now: "0",
+    currency: "USD",
+    region_scope: "Global",
+    is_time_limited: false,
+    tags: ["GOG","PC"]
+  }));
+  return out.slice(0, 60);
 }
+
 
 // Prime Gaming — monthly roundup
 async function fetchPrime() {
@@ -174,20 +165,20 @@ async function fetchPrime() {
 
 // iOS — Appsliced "Free" recent
 async function fetchIOSFree() {
-  const url = "https://appsliced.co/apps?sort=recent&l=free";
+  const url = "https://appsliced.co/apps?price=0&sort=recent";
   const html = await httpGet(url);
   const $ = load(html);
-  const items = [];
+  const out = [];
   $(".app-list .app").each((_, el) => {
     const title = $(el).find(".name").text().trim();
     const href = $(el).find("a[href]").attr("href");
     const img = $(el).find("img").attr("src") || "";
     const was = $(el).find(".pricestrike").text().trim();
     if (!title || !href) return;
-    items.push(norm({
+    out.push(norm({
       platform: "ios",
       title,
-      subtitle: "Paid → Free (Appsliced)",
+      subtitle: "Paid → Free (AppSliced)",
       source_url: url,
       store_product_url: href.startsWith("http") ? href : ("https://appsliced.co" + href),
       image_url: img,
@@ -195,46 +186,41 @@ async function fetchIOSFree() {
       price_now: "0",
       currency: "USD",
       region_scope: "Varies",
-      starts_at: null,
-      ends_at: null,
       is_time_limited: true,
       tags: ["iOS","iPhone","iPad"]
     }));
   });
-  return items.slice(0, 50);
+  return out.slice(0, 50);
 }
 
 // Android — AppAgg hot deals (best-effort)
 async function fetchAndroidFree() {
-  const url = "https://appagg.com/hot?platform=android";
+  const url = "https://appsfree.app/";
   const html = await httpGet(url);
   const $ = load(html);
   const out = [];
-  $(".app-card, .item, article").each((_, el) => {
-    const t = $(el).find(".title, h3, .name").first().text().trim();
-    const href = $(el).find("a[href]").first().attr("href");
+  $("article.post").each((_, el) => {
+    const title = $(el).find("h2.entry-title a").text().trim();
+    const play = $(el).find('a[href*="play.google.com"]').attr("href");
     const img = $(el).find("img").attr("src") || "";
-    const priceNow = $(el).text().match(/\$?0(\.00)?|free/i) ? "0" : "";
-    if (!t || !href || !priceNow) return;
+    if (!title || !play) return;
     out.push(norm({
       platform: "android",
-      title: t,
-      subtitle: "Paid → Free (AppAgg Hot)",
+      title,
+      subtitle: "Paid → Free (AppsFree)",
       source_url: url,
-      store_product_url: href.startsWith("http") ? href : ("https://appagg.com" + href),
+      store_product_url: play,
       image_url: img,
-      price_before: "",
       price_now: "0",
-      currency: "USD",
+      currency: "",
       region_scope: "Varies",
-      starts_at: null,
-      ends_at: null,
       is_time_limited: true,
       tags: ["Android"]
     }));
   });
-  return out.slice(0, 60);
+  return out.slice(0, 50);
 }
+
 
 const writers = [
   ["ios", fetchIOSFree],
