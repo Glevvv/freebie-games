@@ -1,0 +1,18 @@
+
+---
+
+## Legal & ethics
+
+- **Respect robots.txt** and site Terms of Service.
+- Link to original sources; show timestamps.
+- Avoid copying full descriptions; summarize instead.
+- This repo includes **polite scrapers**. You own the responsibility to operate them compliantly.
+
+---
+
+## Local run (optional)
+
+```bash
+npm i
+node scripts/scrape.mjs
+# JSON will update in docs/data/
