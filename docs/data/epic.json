@@ -1,40 +1,41 @@
 [
   {
     "platform": "epic",
-    "title": "112 Operator",
+    "title": "Totally Reliable Delivery Service Standard Edition",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/112-operator-f34b0b",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/6036e5ea111a448ea1b41d5ab3800d99/112-operator-1smmi.jpg",
-    "price_before": "$24.99",
+    "store_product_url": "https://store.epicgames.com/en-US/p/totally-reliable-delivery-service",
+    "image_url": "https://cdn1.epicgames.com/52b90f9a982a404781b189f6a7903226/offer/EGS_TotallyReliableDeliveryService_WereFiveGames_S1-2560x1440-47e6e9562d62705a75ea7b7096d0b8dc.jpg",
+    "price_before": "$14.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-08-07T15:00:00.000Z",
-    "ends_at": "2025-08-14T15:00:00.000Z",
+    "starts_at": "2025-08-14T15:00:00.000Z",
+    "ends_at": "2025-08-21T15:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
       "games",
       "games/edition",
-      "games/edition/base"
+      "games/edition/base",
+      "applications"
     ],
     "rating": null,
-    "verified_at": "2025-08-14T14:54:13.073Z"
+    "verified_at": "2025-08-14T15:20:44.947Z"
   },
   {
     "platform": "epic",
-    "title": "Road Redemption",
+    "title": "Hidden Folks",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/road-redemption-ce16fb",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/ee0cf0e1ab6a4e1c83e5de0681fea012/road-redemption-1upeb.png",
-    "price_before": "$19.99",
+    "store_product_url": "https://store.epicgames.com/en-US/p/hidden-folks-239d16",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/7bfd56b0586348dcb139945d9e59f988/hidden-folks-1b7hh.png",
+    "price_before": "$14.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-08-07T15:00:00.000Z",
-    "ends_at": "2025-08-14T15:00:00.000Z",
+    "starts_at": "2025-08-14T15:00:00.000Z",
+    "ends_at": "2025-08-21T15:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -43,6 +44,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-08-14T14:54:13.073Z"
+    "verified_at": "2025-08-14T15:20:44.947Z"
   }
 ]
