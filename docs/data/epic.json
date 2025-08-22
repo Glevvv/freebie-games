@@ -20,14 +20,14 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-08-22T14:17:53.406Z"
+    "verified_at": "2025-08-22T14:51:01.685Z"
   },
   {
     "platform": "epic",
     "title": "Kamaeru",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/dc461f7367714ec6ad01df67163de5eb",
+    "store_product_url": "https://store.epicgames.com/en-US/p/kamaeru-0c301e",
     "image_url": "https://cdn1.epicgames.com/spt-assets/44313cfbb62b4df5801d0c8d541c2624/kamaeru-40asc.png",
     "price_before": "$19.99",
     "price_now": "0",
@@ -43,6 +43,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-08-22T14:17:53.406Z"
+    "verified_at": "2025-08-22T14:51:01.685Z"
   }
 ]
