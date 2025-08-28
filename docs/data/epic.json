@@ -1,40 +1,17 @@
 [
   {
     "platform": "epic",
-    "title": "Strange Horticulture",
+    "title": "Machinarium",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/strange-horticulture-360e80",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/15e8e3eba65a4763a815d6eae1d763b2/download-strange-horticulture-offer-x1a19.png",
-    "price_before": "$14.99",
-    "price_now": "0",
-    "currency": "USD",
-    "region_scope": "Global",
-    "starts_at": "2025-08-21T15:00:00.000Z",
-    "ends_at": "2025-08-28T15:00:00.000Z",
-    "is_time_limited": true,
-    "tags": [
-      "freegames",
-      "games",
-      "games/edition",
-      "games/edition/base"
-    ],
-    "rating": null,
-    "verified_at": "2025-08-28T14:51:31.246Z"
-  },
-  {
-    "platform": "epic",
-    "title": "Kamaeru",
-    "subtitle": "Epic Games Store",
-    "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/kamaeru-0c301e",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/44313cfbb62b4df5801d0c8d541c2624/kamaeru-40asc.png",
+    "store_product_url": "https://store.epicgames.com/en-US/p/machinarium-5e6c71",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/907d9edf585e4c23b971164cd1c452e2/machinarium-1n5ke.jpg",
     "price_before": "$19.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-08-21T15:00:00.000Z",
-    "ends_at": "2025-08-28T15:00:00.000Z",
+    "starts_at": "2025-08-28T15:00:00.000Z",
+    "ends_at": "2025-09-04T15:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -43,6 +20,29 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-08-28T14:51:31.246Z"
+    "verified_at": "2025-08-28T15:18:58.554Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Make Way",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/make-way-bddf5f",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/17b5c19c1e0e48e99cde4bc54dde505a/make-way-gf3ww.png",
+    "price_before": "$14.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-08-28T15:00:00.000Z",
+    "ends_at": "2025-09-04T15:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-08-28T15:18:58.554Z"
   }
 ]
