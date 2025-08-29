@@ -1,1 +1,48 @@
-[]
+[
+  {
+    "platform": "epic",
+    "title": "Machinarium",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/machinarium-5e6c71",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/907d9edf585e4c23b971164cd1c452e2/machinarium-1n5ke.jpg",
+    "price_before": "$19.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-08-28T15:00:00.000Z",
+    "ends_at": "2025-09-04T15:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-08-29T06:54:20.407Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Make Way",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/make-way-bddf5f",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/17b5c19c1e0e48e99cde4bc54dde505a/make-way-gf3ww.png",
+    "price_before": "$14.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-08-28T15:00:00.000Z",
+    "ends_at": "2025-09-04T15:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-08-29T06:54:20.407Z"
+  }
+]
