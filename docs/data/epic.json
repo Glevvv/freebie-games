@@ -1,17 +1,41 @@
 [
   {
     "platform": "epic",
-    "title": "Monument Valley",
+    "title": "Ghostrunner 2",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/monument-valley-1d99d3",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-    "price_before": "$7.99",
+    "store_product_url": "https://store.epicgames.com/en-US/p/ghostrunner-2",
+    "image_url": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S2_1200x1600-12ae7597b946ad94ac75680eb735be07",
+    "price_before": "$39.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-09-04T15:00:00.000Z",
-    "ends_at": "2025-09-11T15:00:00.000Z",
+    "starts_at": "2025-09-11T15:00:00.000Z",
+    "ends_at": "2025-09-18T15:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base",
+      "applications"
+    ],
+    "rating": null,
+    "verified_at": "2025-09-11T15:16:32.271Z"
+  },
+  {
+    "platform": "epic",
+    "title": "The Battle of Polytopia",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/the-battle-of-polytopia-12fed6",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/b312dfc1b33d459daa55a67d53a56223/the-battle-of-polytopia-1oi5a.png",
+    "price_before": "$14.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-09-11T15:00:00.000Z",
+    "ends_at": "2025-09-18T15:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -20,6 +44,29 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-09-11T14:50:49.057Z"
+    "verified_at": "2025-09-11T15:16:32.271Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Monument Valley 2",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/monument-valley-2-addd02",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/ec6e53ce95cc432d895dfb1285254bfd/monument-valley-2-1wse4.jpg",
+    "price_before": "$7.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-09-11T15:00:00.000Z",
+    "ends_at": "2025-09-18T15:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-09-11T15:16:32.271Z"
   }
 ]
