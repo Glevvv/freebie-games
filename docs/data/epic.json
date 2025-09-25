@@ -1,17 +1,17 @@
 [
   {
     "platform": "epic",
-    "title": "Samorost 2",
+    "title": "Eastern Exorcist",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/samorost-2-1b9bb1",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/472b13536da144839f184bd67e9a8e25/samorost-2-1hb4u.jpg",
-    "price_before": "$4.99",
+    "store_product_url": "https://store.epicgames.com/en-US/p/eastern-exorcist-d49923",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/aa3726b6b8a14b148b58992e8d2700b1/eastern-exorcist-k4a82.png",
+    "price_before": "$17.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-09-18T15:00:00.000Z",
-    "ends_at": "2025-09-25T15:00:00.000Z",
+    "starts_at": "2025-09-25T15:00:00.000Z",
+    "ends_at": "2025-10-02T15:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -20,21 +20,21 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-09-25T14:52:10.718Z"
+    "verified_at": "2025-09-25T15:19:27.821Z"
   },
   {
     "platform": "epic",
-    "title": "Project Winter",
+    "title": "Castlevania Anniversary Collection",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/project-winter-3b9e84",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/8b114e51c13344978e0b8693dea6bb74/project-winter-phsnu.png",
-    "price_before": "$9.99",
+    "store_product_url": "https://store.epicgames.com/en-US/p/castlevania-anniversary-collection-a61f94",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+    "price_before": "$19.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-09-18T15:00:00.000Z",
-    "ends_at": "2025-09-25T15:00:00.000Z",
+    "starts_at": "2025-09-25T15:00:00.000Z",
+    "ends_at": "2025-10-09T15:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -43,6 +43,29 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-09-25T14:52:10.718Z"
+    "verified_at": "2025-09-25T15:19:27.821Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/jorels-brother-and-the-most-important-game-of-the-galaxy-47435f",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/6d5a003f768f4957b4ed48b373f86b32/jorels-brother-and-the-most-important-game-of-the-galaxy-liq5n.png",
+    "price_before": "$14.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-09-25T15:00:00.000Z",
+    "ends_at": "2025-10-02T15:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-09-25T15:19:27.821Z"
   }
 ]
