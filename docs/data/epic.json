@@ -1,17 +1,17 @@
 [
   {
     "platform": "epic",
-    "title": "Eastern Exorcist",
+    "title": "Firestone Online Idle RPG",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/eastern-exorcist-d49923",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/aa3726b6b8a14b148b58992e8d2700b1/eastern-exorcist-k4a82.png",
-    "price_before": "$17.99",
+    "store_product_url": "https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-20nh8.png",
+    "price_before": "0",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-09-25T15:00:00.000Z",
-    "ends_at": "2025-10-02T15:00:00.000Z",
+    "starts_at": "2025-10-02T15:00:00.000Z",
+    "ends_at": "2025-10-09T15:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -20,7 +20,31 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-10-02T14:50:32.987Z"
+    "verified_at": "2025-10-02T15:18:34.751Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Nightingale",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/nightingale",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/3c9f4ef0d1b240de9586b0cdd380ff92/nightingale-a7wrd.jpg",
+    "price_before": "$29.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-10-02T15:00:00.000Z",
+    "ends_at": "2025-10-09T15:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base",
+      "applications"
+    ],
+    "rating": null,
+    "verified_at": "2025-10-02T15:18:34.751Z"
   },
   {
     "platform": "epic",
@@ -43,29 +67,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-10-02T14:50:32.987Z"
-  },
-  {
-    "platform": "epic",
-    "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
-    "subtitle": "Epic Games Store",
-    "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/jorels-brother-and-the-most-important-game-of-the-galaxy-47435f",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/6d5a003f768f4957b4ed48b373f86b32/jorels-brother-and-the-most-important-game-of-the-galaxy-liq5n.png",
-    "price_before": "$14.99",
-    "price_now": "0",
-    "currency": "USD",
-    "region_scope": "Global",
-    "starts_at": "2025-09-25T15:00:00.000Z",
-    "ends_at": "2025-10-02T15:00:00.000Z",
-    "is_time_limited": true,
-    "tags": [
-      "freegames",
-      "games",
-      "games/edition",
-      "games/edition/base"
-    ],
-    "rating": null,
-    "verified_at": "2025-10-02T14:50:32.987Z"
+    "verified_at": "2025-10-02T15:18:34.751Z"
   }
 ]
