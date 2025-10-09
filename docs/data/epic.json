@@ -1,72 +1,47 @@
 [
   {
     "platform": "epic",
-    "title": "Firestone Online Idle RPG",
+    "title": "Gravity Circuit",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-20nh8.png",
+    "store_product_url": "https://store.epicgames.com/en-US/p/gravity-circuit-489baa",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/c259931bc98344a1a16427cb079f049f/gravity-circuit-offer-4kzn5.jpg",
+    "price_before": "$16.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-10-09T15:00:00.000Z",
+    "ends_at": "2025-10-16T15:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-10-09T15:23:06.348Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Rogue Journeyman Bundle",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/albion-online-7eb24d",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/92837229023341268267ff64cae425a5/albion-online-qadpy.jpg",
     "price_before": "0",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-10-02T15:00:00.000Z",
-    "ends_at": "2025-10-09T15:00:00.000Z",
+    "starts_at": "2025-10-09T15:00:00.000Z",
+    "ends_at": "2025-10-16T15:00:00.000Z",
     "is_time_limited": true,
     "tags": [
+      "addons",
       "freegames",
-      "games",
-      "games/edition",
-      "games/edition/base"
+      "addons/durable"
     ],
     "rating": null,
-    "verified_at": "2025-10-09T14:18:08.897Z"
-  },
-  {
-    "platform": "epic",
-    "title": "Nightingale",
-    "subtitle": "Epic Games Store",
-    "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/nightingale",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/3c9f4ef0d1b240de9586b0cdd380ff92/nightingale-a7wrd.jpg",
-    "price_before": "$29.99",
-    "price_now": "0",
-    "currency": "USD",
-    "region_scope": "Global",
-    "starts_at": "2025-10-02T15:00:00.000Z",
-    "ends_at": "2025-10-09T15:00:00.000Z",
-    "is_time_limited": true,
-    "tags": [
-      "freegames",
-      "games",
-      "games/edition",
-      "games/edition/base",
-      "applications"
-    ],
-    "rating": null,
-    "verified_at": "2025-10-09T14:18:08.897Z"
-  },
-  {
-    "platform": "epic",
-    "title": "Castlevania Anniversary Collection",
-    "subtitle": "Epic Games Store",
-    "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/castlevania-anniversary-collection-a61f94",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
-    "price_before": "$19.99",
-    "price_now": "0",
-    "currency": "USD",
-    "region_scope": "Global",
-    "starts_at": "2025-09-25T15:00:00.000Z",
-    "ends_at": "2025-10-09T15:00:00.000Z",
-    "is_time_limited": true,
-    "tags": [
-      "freegames",
-      "games",
-      "games/edition",
-      "games/edition/base"
-    ],
-    "rating": null,
-    "verified_at": "2025-10-09T14:18:08.897Z"
+    "verified_at": "2025-10-09T15:23:06.348Z"
   }
 ]
