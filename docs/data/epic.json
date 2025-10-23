@@ -1,40 +1,17 @@
 [
   {
     "platform": "epic",
-    "title": "Amnesia: The Bunker",
+    "title": "Fear the Spotlight",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/amnesia-the-bunker-9d5799",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/671aee4c8fb64a1c967d97f31f093e7a/amnesia-the-bunker-1x2n7.png",
-    "price_before": "$24.99",
-    "price_now": "0",
-    "currency": "USD",
-    "region_scope": "Global",
-    "starts_at": "2025-10-16T15:00:00.000Z",
-    "ends_at": "2025-10-23T15:00:00.000Z",
-    "is_time_limited": true,
-    "tags": [
-      "freegames",
-      "games",
-      "games/edition",
-      "games/edition/base"
-    ],
-    "rating": null,
-    "verified_at": "2025-10-23T14:53:07.572Z"
-  },
-  {
-    "platform": "epic",
-    "title": "Samorost 3",
-    "subtitle": "Epic Games Store",
-    "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/samorost-3-0c4489",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/b2c854d46f0f46de8b14e1178b7e85fc/samorost-3-1ukhw.jpg",
+    "store_product_url": "https://store.epicgames.com/en-US/p/fear-the-spotlight-97656f",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/7440e6952704438cbb2e4f4dff02e00a/fear-the-spotlight-1ioq7.jpg",
     "price_before": "$19.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-10-16T15:00:00.000Z",
-    "ends_at": "2025-10-23T15:00:00.000Z",
+    "starts_at": "2025-10-23T15:00:00.000Z",
+    "ends_at": "2025-10-30T15:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -43,6 +20,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-10-23T14:53:07.572Z"
+    "verified_at": "2025-10-23T15:19:52.190Z"
   }
 ]
