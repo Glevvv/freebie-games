@@ -21,7 +21,30 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-10-28T14:53:43.612Z"
+    "verified_at": "2025-10-28T15:20:56.431Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Monument Valley",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/monument-valley-1d99d3",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+    "price_before": "$7.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-10-28T15:00:00.000Z",
+    "ends_at": "2025-11-04T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-10-28T15:20:56.431Z"
   },
   {
     "platform": "epic",
@@ -44,6 +67,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-10-28T14:53:43.612Z"
+    "verified_at": "2025-10-28T15:20:56.431Z"
   }
 ]
