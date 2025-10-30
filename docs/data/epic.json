@@ -21,7 +21,7 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-10-30T14:53:11.311Z"
+    "verified_at": "2025-10-30T15:20:51.626Z"
   },
   {
     "platform": "epic",
@@ -44,21 +44,21 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-10-30T14:53:11.311Z"
+    "verified_at": "2025-10-30T15:20:51.626Z"
   },
   {
     "platform": "epic",
-    "title": "Fear the Spotlight",
+    "title": "Bendy and the Ink Machine",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/fear-the-spotlight-97656f",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/7440e6952704438cbb2e4f4dff02e00a/fear-the-spotlight-1ioq7.jpg",
+    "store_product_url": "https://store.epicgames.com/en-US/p/bendy-and-the-ink-machine-60cf5a",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/0b1283e5bfa64ad48f3862b79abc20b9/bendy-and-the-ink-machine-1e8cj.png",
     "price_before": "$19.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-10-23T15:00:00.000Z",
-    "ends_at": "2025-10-30T15:00:00.000Z",
+    "starts_at": "2025-10-30T15:00:00.000Z",
+    "ends_at": "2025-11-06T16:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -67,6 +67,29 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-10-30T14:53:11.311Z"
+    "verified_at": "2025-10-30T15:20:51.626Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Five Nights at Freddy's: Into the Pit",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/five-nights-at-freddys-into-the-pit-99c563",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/5c65df08b03a43eb8be026116ef8e979/five-nights-at-freddys-into-the-pit-1ng0s.png",
+    "price_before": "$19.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-10-30T15:00:00.000Z",
+    "ends_at": "2025-11-06T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-10-30T15:20:51.626Z"
   }
 ]
