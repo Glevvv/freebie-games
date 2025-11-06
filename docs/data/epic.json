@@ -21,7 +21,31 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-11-06T22:17:45.162Z"
+    "verified_at": "2025-11-06T22:50:18.859Z"
+  },
+  {
+    "platform": "epic",
+    "title": "LISA: The Definitive Edition",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/lisa-the-definitive-edition",
+    "image_url": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S2_1200x1600-4a9b4fc6e06e8aff136c1a3cf18292ae",
+    "price_before": "$24.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-10-26T16:00:00.000Z",
+    "ends_at": "2025-11-09T17:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "bundles",
+      "freegames",
+      "games",
+      "bundles/games",
+      "applications"
+    ],
+    "rating": null,
+    "verified_at": "2025-11-06T22:50:18.859Z"
   },
   {
     "platform": "epic",
@@ -44,6 +68,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-06T22:17:45.162Z"
+    "verified_at": "2025-11-06T22:50:18.859Z"
   }
 ]
