@@ -1,6 +1,30 @@
 [
   {
     "platform": "epic",
+    "title": "Idle Champions of the Forgotten Realms",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1sr4b.png",
+    "price_before": "0",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-11-06T16:00:00.000Z",
+    "ends_at": "2025-11-13T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base",
+      "applications"
+    ],
+    "rating": null,
+    "verified_at": "2025-11-06T16:25:48.576Z"
+  },
+  {
+    "platform": "epic",
     "title": "LISA: The Definitive Edition",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
@@ -21,21 +45,21 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-11-06T15:53:18.343Z"
+    "verified_at": "2025-11-06T16:25:48.576Z"
   },
   {
     "platform": "epic",
-    "title": "Bendy and the Ink Machine",
+    "title": "Felix The Reaper",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/bendy-and-the-ink-machine-60cf5a",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/0b1283e5bfa64ad48f3862b79abc20b9/bendy-and-the-ink-machine-1e8cj.png",
-    "price_before": "$19.99",
+    "store_product_url": "https://store.epicgames.com/en-US/p/felix-the-reaper-3f7e62",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/582d7a7c91264ee2b68f93e666870a1b/felix-the-reaper-w5lqq.jpg",
+    "price_before": "$9.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-10-30T15:00:00.000Z",
-    "ends_at": "2025-11-06T16:00:00.000Z",
+    "starts_at": "2025-11-06T16:00:00.000Z",
+    "ends_at": "2025-11-13T16:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -44,29 +68,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-06T15:53:18.343Z"
-  },
-  {
-    "platform": "epic",
-    "title": "Five Nights at Freddy's: Into the Pit",
-    "subtitle": "Epic Games Store",
-    "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/five-nights-at-freddys-into-the-pit-99c563",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/5c65df08b03a43eb8be026116ef8e979/five-nights-at-freddys-into-the-pit-1ng0s.png",
-    "price_before": "$19.99",
-    "price_now": "0",
-    "currency": "USD",
-    "region_scope": "Global",
-    "starts_at": "2025-10-30T15:00:00.000Z",
-    "ends_at": "2025-11-06T16:00:00.000Z",
-    "is_time_limited": true,
-    "tags": [
-      "freegames",
-      "games",
-      "games/edition",
-      "games/edition/base"
-    ],
-    "rating": null,
-    "verified_at": "2025-11-06T15:53:18.343Z"
+    "verified_at": "2025-11-06T16:25:48.576Z"
   }
 ]
