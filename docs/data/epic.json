@@ -1,17 +1,17 @@
 [
   {
     "platform": "epic",
-    "title": "Idle Champions of the Forgotten Realms",
+    "title": "Scourgebringer",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1sr4b.png",
-    "price_before": "0",
+    "store_product_url": "https://store.epicgames.com/en-US/p/scourgebringer",
+    "image_url": "https://cdn1.epicgames.com/offer/c03a3687567a4cf3910ea5ec7279664e/b3b676d2-3004-47db-b004-b0886cbefc16-1200x1600-ae53ef4bf4c28af8c253c043c35c78d1_1200x1600-ae53ef4bf4c28af8c253c043c35c78d1",
+    "price_before": "$16.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-11-06T16:00:00.000Z",
-    "ends_at": "2025-11-13T16:00:00.000Z",
+    "starts_at": "2025-11-13T16:00:00.000Z",
+    "ends_at": "2025-11-20T16:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -21,21 +21,21 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-11-13T15:51:20.045Z"
+    "verified_at": "2025-11-13T16:23:27.054Z"
   },
   {
     "platform": "epic",
-    "title": "Felix The Reaper",
+    "title": "Songs of Silence",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/felix-the-reaper-3f7e62",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/582d7a7c91264ee2b68f93e666870a1b/felix-the-reaper-w5lqq.jpg",
-    "price_before": "$9.99",
+    "store_product_url": "https://store.epicgames.com/en-US/p/songs-of-silence-778d86",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/717e784a701e49bba02e27f7774e966a/songs-of-silence-1g5aw.jpg",
+    "price_before": "$29.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-11-06T16:00:00.000Z",
-    "ends_at": "2025-11-13T16:00:00.000Z",
+    "starts_at": "2025-11-13T16:00:00.000Z",
+    "ends_at": "2025-11-20T16:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -44,6 +44,29 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-13T15:51:20.045Z"
+    "verified_at": "2025-11-13T16:23:27.054Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Zero Hour",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/zero-hour-8449a0",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/24397552e51f404d8f89e93ed383d35a/zero-hour-16cus.png",
+    "price_before": "$9.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-11-13T16:00:00.000Z",
+    "ends_at": "2025-11-20T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-11-13T16:23:27.054Z"
   }
 ]
