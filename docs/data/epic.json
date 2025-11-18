@@ -21,7 +21,76 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-11-18T15:53:30.925Z"
+    "verified_at": "2025-11-18T16:26:24.319Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Zoeti",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/zoeti-3ccef9",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/78af28ae56cb41e69cbca318bbc180e3/zoeti-1vjnz.jpg",
+    "price_before": "$19.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-11-18T16:00:00.000Z",
+    "ends_at": "2025-12-02T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-11-18T16:26:24.319Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Eternal Threads",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/eternal-threads-197169",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
+    "price_before": "$19.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-11-18T16:00:00.000Z",
+    "ends_at": "2025-12-02T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-11-18T16:26:24.319Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Castlevania Anniversary Collection",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/castlevania-anniversary-collection-a61f94",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+    "price_before": "$19.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-11-18T16:00:00.000Z",
+    "ends_at": "2025-12-02T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2025-11-18T16:26:24.319Z"
   },
   {
     "platform": "epic",
@@ -44,7 +113,7 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-18T15:53:30.925Z"
+    "verified_at": "2025-11-18T16:26:24.319Z"
   },
   {
     "platform": "epic",
@@ -67,6 +136,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-18T15:53:30.925Z"
+    "verified_at": "2025-11-18T16:26:24.319Z"
   }
 ]
