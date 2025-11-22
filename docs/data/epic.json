@@ -10,8 +10,8 @@
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-11-20T16:00:00.000Z",
-    "ends_at": "2025-11-27T16:00:00.000Z",
+    "starts_at": "2025-11-18T16:00:00.000Z",
+    "ends_at": "2025-12-02T16:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -20,7 +20,7 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-22T21:15:49.090Z"
+    "verified_at": "2025-11-22T21:50:07.455Z"
   },
   {
     "platform": "epic",
@@ -43,7 +43,7 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-22T21:15:49.090Z"
+    "verified_at": "2025-11-22T21:50:07.455Z"
   },
   {
     "platform": "epic",
@@ -66,7 +66,7 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-22T21:15:49.090Z"
+    "verified_at": "2025-11-22T21:50:07.455Z"
   },
   {
     "platform": "epic",
@@ -89,6 +89,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-22T21:15:49.090Z"
+    "verified_at": "2025-11-22T21:50:07.455Z"
   }
 ]
