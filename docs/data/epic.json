@@ -21,30 +21,7 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-11-27T15:51:04.100Z"
-  },
-  {
-    "platform": "epic",
-    "title": "Zoeti",
-    "subtitle": "Epic Games Store",
-    "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/zoeti-3ccef9",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/78af28ae56cb41e69cbca318bbc180e3/zoeti-1vjnz.jpg",
-    "price_before": "$19.99",
-    "price_now": "0",
-    "currency": "USD",
-    "region_scope": "Global",
-    "starts_at": "2025-11-18T16:00:00.000Z",
-    "ends_at": "2025-12-02T16:00:00.000Z",
-    "is_time_limited": true,
-    "tags": [
-      "freegames",
-      "games",
-      "games/edition",
-      "games/edition/base"
-    ],
-    "rating": null,
-    "verified_at": "2025-11-27T15:51:04.100Z"
+    "verified_at": "2025-11-27T16:23:43.806Z"
   },
   {
     "platform": "epic",
@@ -67,21 +44,21 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-27T15:51:04.100Z"
+    "verified_at": "2025-11-27T16:23:43.806Z"
   },
   {
     "platform": "epic",
-    "title": "Godzilla Voxel Wars",
+    "title": "Universe for Sale",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/godzillawars-2c30e4",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/8d0c5b1ea9254d57afd4460c6c5de7de/godzilla-voxel-wars-1r6gz.png",
+    "store_product_url": "https://store.epicgames.com/en-US/p/universe-for-sale-05c53e",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/5159c30d2bba476484db4f9c97beb47e/universe-for-sale-xr25c.jpg",
     "price_before": "$14.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-11-20T16:00:00.000Z",
-    "ends_at": "2025-11-27T16:00:00.000Z",
+    "starts_at": "2025-11-27T16:00:00.000Z",
+    "ends_at": "2025-12-04T16:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -90,7 +67,7 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-27T15:51:04.100Z"
+    "verified_at": "2025-11-27T16:23:43.806Z"
   },
   {
     "platform": "epic",
@@ -113,6 +90,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-11-27T15:51:04.100Z"
+    "verified_at": "2025-11-27T16:23:43.806Z"
   }
 ]
