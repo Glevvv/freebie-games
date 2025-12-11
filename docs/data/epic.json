@@ -1,17 +1,17 @@
 [
   {
     "platform": "epic",
-    "title": "The Jackbox Party Pack 4",
+    "title": "Ghostrunner 2",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/jackbox-party-pack-4",
-    "image_url": "https://cdn1.epicgames.com/offer/snowdrop/PP4_WideImage_2560x1440-af8d584f847d181c0831ad238cfc4076",
-    "price_before": "$24.99",
+    "store_product_url": "https://store.epicgames.com/en-US/p/ghostrunner-2",
+    "image_url": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S2_1200x1600-12ae7597b946ad94ac75680eb735be07",
+    "price_before": "$39.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-12-04T16:00:00.000Z",
-    "ends_at": "2025-12-11T16:00:00.000Z",
+    "starts_at": "2025-12-11T16:00:00.000Z",
+    "ends_at": "2026-01-08T16:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -21,21 +21,45 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-12-11T15:56:57.343Z"
+    "verified_at": "2025-12-11T16:36:15.652Z"
   },
   {
     "platform": "epic",
-    "title": "The Darkside Detective",
+    "title": "LISA: The Definitive Edition",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/the-darkside-detective-02fd5a",
-    "image_url": "https://cdn1.epicgames.com/spt-assets/f91b4d1e5d1348b4a4ad37de00258464/the-darkside-detective-offer-1uv10.jpg",
-    "price_before": "$14.99",
+    "store_product_url": "https://store.epicgames.com/en-US/p/lisa-the-definitive-edition",
+    "image_url": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S2_1200x1600-4a9b4fc6e06e8aff136c1a3cf18292ae",
+    "price_before": "$24.99",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-12-04T16:00:00.000Z",
-    "ends_at": "2025-12-11T16:00:00.000Z",
+    "starts_at": "2025-12-11T16:00:00.000Z",
+    "ends_at": "2026-01-08T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "bundles",
+      "freegames",
+      "games",
+      "bundles/games",
+      "applications"
+    ],
+    "rating": null,
+    "verified_at": "2025-12-11T16:36:15.652Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Monument Valley",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/monument-valley-1d99d3",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+    "price_before": "$7.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-12-11T16:00:00.000Z",
+    "ends_at": "2026-01-08T16:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames",
@@ -44,6 +68,6 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-12-11T15:56:57.343Z"
+    "verified_at": "2025-12-11T16:36:15.652Z"
   }
 ]
