@@ -21,7 +21,7 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-12-20T15:50:34.268Z"
+    "verified_at": "2025-12-20T16:22:56.169Z"
   },
   {
     "platform": "epic",
@@ -45,7 +45,7 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-12-20T15:50:34.268Z"
+    "verified_at": "2025-12-20T16:22:56.169Z"
   },
   {
     "platform": "epic",
@@ -68,21 +68,21 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-12-20T15:50:34.268Z"
+    "verified_at": "2025-12-20T16:22:56.169Z"
   },
   {
     "platform": "epic",
-    "title": "Eternights",
+    "title": "Blood West",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/eternights-c2fbca",
-    "image_url": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec19_giveaway_2560x1440_2560x1440-35f0694dabc74e52b717607909332c27",
+    "store_product_url": "https://store.epicgames.com/en-US/p/blood-west-8f6ffd",
+    "image_url": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec20_giveaway_2560x1440_2560x1440-dfdb6205510e4167ba1057f6f92cfd1d",
     "price_before": "0",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-12-19T16:00:00.000Z",
-    "ends_at": "2025-12-20T16:00:00.000Z",
+    "starts_at": "2025-12-20T16:00:00.000Z",
+    "ends_at": "2025-12-21T16:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames/vaulted",
@@ -91,6 +91,6 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-12-20T15:50:34.268Z"
+    "verified_at": "2025-12-20T16:22:56.169Z"
   }
 ]
