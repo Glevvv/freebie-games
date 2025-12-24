@@ -21,7 +21,7 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-12-24T15:51:52.070Z"
+    "verified_at": "2025-12-24T16:24:49.684Z"
   },
   {
     "platform": "epic",
@@ -45,7 +45,7 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-12-24T15:51:52.070Z"
+    "verified_at": "2025-12-24T16:24:49.684Z"
   },
   {
     "platform": "epic",
@@ -68,21 +68,21 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-12-24T15:51:52.070Z"
+    "verified_at": "2025-12-24T16:24:49.684Z"
   },
   {
     "platform": "epic",
-    "title": "Bloodstained: Ritual of the Night",
+    "title": "The Callisto Protocol",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/bloodstained-f3f575",
-    "image_url": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec23_giveaway_2560x14401_2560x1440-6261ed2e3fa04304b55b2fc13643e3b2",
+    "store_product_url": "https://store.epicgames.com/en-US/p/the-callisto-protocol",
+    "image_url": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec24_giveaway_2560x1440_2560x1440-b96b670f32f94452a36712298e021d70",
     "price_before": "0",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-12-23T16:00:00.000Z",
-    "ends_at": "2025-12-24T16:00:00.000Z",
+    "starts_at": "2025-12-24T16:00:00.000Z",
+    "ends_at": "2025-12-25T16:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames/vaulted",
@@ -91,6 +91,6 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-12-24T15:51:52.070Z"
+    "verified_at": "2025-12-24T16:24:49.684Z"
   }
 ]
