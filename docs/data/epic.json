@@ -21,7 +21,7 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-12-31T15:51:10.434Z"
+    "verified_at": "2025-12-31T16:25:05.880Z"
   },
   {
     "platform": "epic",
@@ -45,7 +45,7 @@
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-12-31T15:51:10.434Z"
+    "verified_at": "2025-12-31T16:25:05.880Z"
   },
   {
     "platform": "epic",
@@ -68,30 +68,29 @@
       "games/edition/base"
     ],
     "rating": null,
-    "verified_at": "2025-12-31T15:51:10.434Z"
+    "verified_at": "2025-12-31T16:25:05.880Z"
   },
   {
     "platform": "epic",
-    "title": "Trine Classic Collection",
+    "title": "Chivalry 2",
     "subtitle": "Epic Games Store",
     "source_url": "https://store.epicgames.com/en-US/free-games",
-    "store_product_url": "https://store.epicgames.com/en-US/p/trine-classic-collection",
-    "image_url": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec30_giveaway_2560x1440_2560x1440-f1062bfbf0844a2fa8e56afc6f29e4d3",
+    "store_product_url": "https://store.epicgames.com/en-US/p/chivalry-2",
+    "image_url": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec31_giveaway_2560x14401_2560x1440-b82fe12ee0ee430086c6ccdb150d9a6d",
     "price_before": "0",
     "price_now": "0",
     "currency": "USD",
     "region_scope": "Global",
-    "starts_at": "2025-12-30T16:00:00.000Z",
-    "ends_at": "2025-12-31T16:00:00.000Z",
+    "starts_at": "2025-12-31T16:00:00.000Z",
+    "ends_at": "2026-01-01T16:00:00.000Z",
     "is_time_limited": true,
     "tags": [
       "freegames/vaulted",
-      "bundles",
       "freegames",
       "games",
       "applications"
     ],
     "rating": null,
-    "verified_at": "2025-12-31T15:51:10.434Z"
+    "verified_at": "2025-12-31T16:25:05.880Z"
   }
 ]
