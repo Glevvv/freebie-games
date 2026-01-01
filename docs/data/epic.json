@@ -1,1 +1,119 @@
-[]
+[
+  {
+    "platform": "epic",
+    "title": "Ghostrunner 2",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/ghostrunner-2",
+    "image_url": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S2_1200x1600-12ae7597b946ad94ac75680eb735be07",
+    "price_before": "$39.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-12-11T16:00:00.000Z",
+    "ends_at": "2026-01-08T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base",
+      "applications"
+    ],
+    "rating": null,
+    "verified_at": "2026-01-01T16:57:54.676Z"
+  },
+  {
+    "platform": "epic",
+    "title": "LISA: The Definitive Edition",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/lisa-the-definitive-edition",
+    "image_url": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S2_1200x1600-4a9b4fc6e06e8aff136c1a3cf18292ae",
+    "price_before": "$24.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-12-11T16:00:00.000Z",
+    "ends_at": "2026-01-08T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "bundles",
+      "freegames",
+      "games",
+      "bundles/games",
+      "applications"
+    ],
+    "rating": null,
+    "verified_at": "2026-01-01T16:57:54.676Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Monument Valley",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/monument-valley-1d99d3",
+    "image_url": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+    "price_before": "$7.99",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2025-12-11T16:00:00.000Z",
+    "ends_at": "2026-01-08T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames",
+      "games",
+      "games/edition",
+      "games/edition/base"
+    ],
+    "rating": null,
+    "verified_at": "2026-01-01T16:57:54.676Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Wildgate",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/wildgate-standard-edition-b886b5",
+    "image_url": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Jan1-7_Game16_giveaway_2560x1440_2560x1440-22bf2decce1c44e3a49f538de98de940",
+    "price_before": "0",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2026-01-01T16:00:00.000Z",
+    "ends_at": "2026-01-08T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames/vaulted",
+      "freegames",
+      "games",
+      "applications"
+    ],
+    "rating": null,
+    "verified_at": "2026-01-01T16:57:54.676Z"
+  },
+  {
+    "platform": "epic",
+    "title": "Total War: THREE KINGDOMS",
+    "subtitle": "Epic Games Store",
+    "source_url": "https://store.epicgames.com/en-US/free-games",
+    "store_product_url": "https://store.epicgames.com/en-US/p/total-war-three-kingdoms-d3bb7a",
+    "image_url": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Jan1-7_Game17_giveaway_2560x14401_2560x1440-dba68e265f1045f883693b0348cf6ea2",
+    "price_before": "0",
+    "price_now": "0",
+    "currency": "USD",
+    "region_scope": "Global",
+    "starts_at": "2026-01-01T16:00:00.000Z",
+    "ends_at": "2026-01-08T16:00:00.000Z",
+    "is_time_limited": true,
+    "tags": [
+      "freegames/vaulted",
+      "freegames",
+      "games",
+      "applications"
+    ],
+    "rating": null,
+    "verified_at": "2026-01-01T16:57:54.676Z"
+  }
+]
