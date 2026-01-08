@@ -10,7 +10,7 @@
     "price_now": "Included",
     "currency": "",
     "region_scope": "Varies by region",
-    "starts_at": "2026-01-08T09:01:24.197Z",
+    "starts_at": "2026-01-08T09:56:40.129Z",
     "ends_at": null,
     "is_time_limited": true,
     "tags": [
@@ -18,7 +18,7 @@
       "PS Plus"
     ],
     "rating": null,
-    "verified_at": "2026-01-08T09:01:24.197Z"
+    "verified_at": "2026-01-08T09:56:40.129Z"
   },
   {
     "platform": "psplus",
@@ -31,7 +31,7 @@
     "price_now": "Included",
     "currency": "",
     "region_scope": "Varies by region",
-    "starts_at": "2026-01-08T09:01:24.197Z",
+    "starts_at": "2026-01-08T09:56:40.129Z",
     "ends_at": null,
     "is_time_limited": true,
     "tags": [
@@ -39,7 +39,7 @@
       "PS Plus"
     ],
     "rating": null,
-    "verified_at": "2026-01-08T09:01:24.197Z"
+    "verified_at": "2026-01-08T09:56:40.129Z"
   },
   {
     "platform": "psplus",
@@ -52,7 +52,7 @@
     "price_now": "Included",
     "currency": "",
     "region_scope": "Varies by region",
-    "starts_at": "2026-01-08T09:01:24.197Z",
+    "starts_at": "2026-01-08T09:56:40.129Z",
     "ends_at": null,
     "is_time_limited": true,
     "tags": [
@@ -60,7 +60,7 @@
       "PS Plus"
     ],
     "rating": null,
-    "verified_at": "2026-01-08T09:01:24.197Z"
+    "verified_at": "2026-01-08T09:56:40.129Z"
   },
   {
     "platform": "psplus",
@@ -73,7 +73,7 @@
     "price_now": "Included",
     "currency": "",
     "region_scope": "Varies by region",
-    "starts_at": "2026-01-08T09:01:24.197Z",
+    "starts_at": "2026-01-08T09:56:40.129Z",
     "ends_at": null,
     "is_time_limited": true,
     "tags": [
@@ -81,6 +81,6 @@
       "PS Plus"
     ],
     "rating": null,
-    "verified_at": "2026-01-08T09:01:24.197Z"
+    "verified_at": "2026-01-08T09:56:40.129Z"
   }
 ]
